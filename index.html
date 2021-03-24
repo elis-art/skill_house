@@ -21,11 +21,11 @@
         <header class="header" id="header">
             <div class="container">
                 <div class="heading"><a href="index.html" class="heading__logo logo"><img src="img/logo.png" alt="skillhous"></a>
-                    <nav class="heading__menu menu"><a href="" class="heading__menu__link menu__link">О проекте </a><a
-                            href="" class="heading__menu__link menu__link">Анонсы </a><a href=""
-                            class="heading__menu__link menu__link">Лекции </a><a href=""
-                            class="heading__menu__link menu__link">Новости </a><a href=""
-                            class="heading__menu__link menu__link">Стать лектором </a><a href=""
+                    <nav class="heading__menu menu"><a href="#about" class="heading__menu__link menu__link">О проекте </a>
+                        <a href="#announcements" class="heading__menu__link menu__link">Анонсы </a>
+                        <a href="page2.html" class="heading__menu__link menu__link">Лекции </a>
+                        <a href="#news" class="heading__menu__link menu__link">Новости </a>
+                        <a href="#mentor" class="heading__menu__link menu__link">Стать лектором </a><a href="#footer"
                             class="heading__menu__link menu__link">Контакты</a></nav>
                     <div class="heading__lang lang"><a href="" class="heading__lang__link lang__link">Eng</a> <a href=""
                             class="heading__lang__link lang__link lang__active">Ru</a></div>
@@ -42,9 +42,10 @@
         </div>
     </div>
     <nav class="mobile_menu">
-        <div><a href="" class="mobile_menu__link">О проекте </a><a href="" class="mobile_menu__link">Анонсы </a><a
-                href="" class="mobile_menu__link">Лекции </a><a href="" class="mobile_menu__link">Новости </a><a href=""
-                class="mobile_menu__link">Стать лектором </a><a href="" class="mobile_menu__link">Контакты</a></div>
+        <div><a href="#about" class="mobile_menu__link">О проекте </a>
+            <a href="#announcements" class="mobile_menu__link">Анонсы </a><a
+                href="page2.html" class="mobile_menu__link">Лекции </a><a href="" class="mobile_menu__link">Новости </a><a href="#mentor"
+                class="mobile_menu__link">Стать лектором </a><a href="#footer" class="mobile_menu__link">Контакты</a></div>
     </nav>
     <section class="advantages">
         <div class="container">
@@ -86,7 +87,7 @@
             </ul>
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="about__wrapper"><img src="img/about.png" alt="" class="about__img">
                 <div class="about__description">
@@ -102,40 +103,40 @@
             </div>
         </div>
     </section>
-    <section class="announcements">
+    <section class="announcements" id="announcements">
         <div class="container-slider">
             <h2 class="announcements__title">Анонсы лекций</h2>
             <div class="lecture" id="lecture">
                 <div class="lecture__items"><time class="lecture__time">1 августа 20:00 (Мск)</time>
                     <h4 class="lecture__title">Название лекции</h4>
                     <p class="lecture__text">Nullam non nisi est sit amet facilisis. Condimentum lacinia quis vel eros.
-                    </p><button class="lecture__btn btn">Участвовать</button>
+                    </p><a href="page3.html" class="lecture__btn btn">Участвовать</a>
                 </div>
                 <div class="lecture__items"><time class="lecture__time">1 августа 20:00 (Мск)</time>
                     <h4 class="lecture__title">Название лекции</h4>
                     <p class="lecture__text">Nullam non nisi est sit amet facilisis. Condimentum lacinia quis vel eros.
-                    </p><button class="lecture__btn btn">Участвовать</button>
+                    </p><a href="page3.html" class="lecture__btn btn">Участвовать</a>
                 </div>
                 <div class="lecture__items"><time class="lecture__time">1 августа 20:00 (Мск)</time>
                     <h4 class="lecture__title">Название лекции</h4>
                     <p class="lecture__text">Nullam non nisi est sit amet facilisis. Condimentum lacinia quis vel eros.
-                    </p><button class="lecture__btn btn">Участвовать</button>
+                    </p><a href="page3.html" class="lecture__btn btn">Участвовать</a>
                 </div>
                 <div class="lecture__items"><time class="lecture__time">1 августа 20:00 (Мск)</time>
                     <h4 class="lecture__title">Название лекции</h4>
                     <p class="lecture__text">Nullam non nisi est sit amet facilisis. Condimentum lacinia quis vel eros.
-                    </p><button class="lecture__btn btn">Участвовать</button>
+                    </p><a href="page3.html" class="lecture__btn btn">Участвовать</a>
                 </div>
                 <div class="lecture__items"><time class="lecture__time">1 августа 20:00 (Мск)</time>
                     <h4 class="lecture__title">Название лекции</h4>
                     <p class="lecture__text">Nullam non nisi est sit amet facilisis. Condimentum lacinia quis vel eros.
-                    </p><button class="lecture__btn btn">Участвовать</button>
+                    </p><a href="page3.html" class="lecture__btn btn">Участвовать</a>
                 </div>
             </div>
             <div class="slider-range"><input type="range" class="range" min="1" value="1" step="1"></div>
         </div>
     </section>
-    <section class="news">
+    <section class="news" id="news">
         <div class="container">
             <h2 class="news__title">Новости</h2>
             <ul class="news__list">
@@ -147,9 +148,11 @@
                     </div>
                     <div class="news__item__wrapper2">
                         <p class="news__text">Bibendum enim facilisis gravida neque convallis. Et magnis dis parturient
-                            montes nascetur ridiculus. Purus viverra accumsan in nisl nisi.</p><button
-                            class="news__btn">&rsaquo;</button> <button class="news__btn2">Узнать больше
-                            &rsaquo;</button>
+                            montes nascetur ridiculus. Purus viverra accumsan in nisl nisi.</p>
+                            <a href="page4.html"
+                            class="news__btn">&rsaquo;</a> 
+                            <a href="page4.html" class="news__btn2">Узнать больше
+                            &rsaquo;</a>
                     </div>
                 </li>
                 <li class="news__item">
@@ -160,9 +163,11 @@
                     </div>
                     <div class="news__item__wrapper2">
                         <p class="news__text">Bibendum enim facilisis gravida neque convallis. Et magnis dis parturient
-                            montes nascetur ridiculus. Purus viverra accumsan in nisl nisi.</p><button
-                            class="news__btn">&rsaquo;</button> <button class="news__btn2">Узнать больше
-                            &rsaquo;</button>
+                            montes nascetur ridiculus. Purus viverra accumsan in nisl nisi.</p>
+                            <a href="page4.html"
+                            class="news__btn">&rsaquo;</a> 
+                            <a href="page4.html" class="news__btn2">Узнать больше
+                                &rsaquo;</a>
                     </div>
                 </li>
                 <li class="news__item">
@@ -173,9 +178,10 @@
                     </div>
                     <div class="news__item__wrapper2">
                         <p class="news__text">Bibendum enim facilisis gravida neque convallis. Et magnis dis parturient
-                            montes nascetur ridiculus. Purus viverra accumsan in nisl nisi.</p><button
-                            class="news__btn">&rsaquo;</button> <button class="news__btn2">Узнать больше
-                            &rsaquo;</button>
+                            montes nascetur ridiculus. Purus viverra accumsan in nisl nisi.</p>
+                            <a href="page4.html" class="news__btn">&rsaquo;</a>  
+                            <a href="page4.html" class="news__btn2">Узнать больше
+                                &rsaquo;</a>
                     </div>
                 </li>
             </ul>
@@ -193,7 +199,7 @@
         <div class="container">
             <div class="mentor__wrapper">
                 <div class="mentor__information">
-                    <h2 class="mentor__title">У вас есть интересная тема?</h2>
+                    <h2 class="mentor__title" id="mentor">У вас есть интересная тема?</h2>
                     <div class="mentor__subtitle">Хотите читать регулярные лекции<br>или провести разовый вебинар или
                         мастер класс?</div>
                     <form id="mentor__form" class="mentor__form form" action="#"><input name="name"
@@ -204,12 +210,12 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="container">
             <div class="footer__wrapper"><img src="img/logo.png" alt="skillhous" class="footer__logo logo">
                 <nav class="footer__menu menu"><a href="" class="footer__menu__link menu__link">О проекте </a><a href=""
                         class="footer__menu__link">Анонсы </a><a href="" class="footer__menu__link">Лекции </a><a
-                        href="" class="footer__menu__link">Новости </a><a href="" class="footer__menu__link">Стать
+                        href="#news" class="footer__menu__link">Новости </a><a href="" class="footer__menu__link">Стать
                         лектором </a><a href="" class="footer__menu__link">Контакты</a></nav>
                 <div class="footer__lang lang"><a href="" class="footer__lang__link lang__link">Eng</a> <a href=""
                         class="footer__lang__link lang__link lang__link lang__active" src="icons/">Ru</a></div>
